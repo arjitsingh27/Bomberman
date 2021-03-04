@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+  }
+  
+  .gridCell { 
+    width: 45px; 
+    height: 45px; 
+    margin: 2px; 
+    border: 2px solid black;
+    background: gray;
+    display: inline-block;
+  }
+  .cell{
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;		
+    display: inline-block;
+  }
+  
+  .bomb{
+    background-color: red;
+    background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+    background-size:cover;
+  }
+  .nobomb{
+    background-color: green; 
+    cursor: not-allowed;
+  }
+  #resetButton{
+    font-size: 42px;
+    width: 200px;
+  }
